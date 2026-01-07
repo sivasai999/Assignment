@@ -18,6 +18,29 @@ Designed with clean layered architecture
 
 ---
 
+## Services & Ports
+
+| Eureka Server | 8761 |
+| API Gateway | 8080 |
+| Order Service | 8081 |
+| User Service | 8082 |
+| Product Service | 8083 |
+
+---
+
+## 🔹 Eureka Server
+- Central service registry
+- Services register automatically
+- Dashboard: http://localhost:8761
+
+---
+
+## 🔹 API Gateway
+- Single entry point
+- Routes via Eureka
+- Circuit breaker enabled
+- Path rewriting supported
+
 ## API Endpoints
 - POST `/api/v1/orders`
 - GET `/api/v1/orders`
