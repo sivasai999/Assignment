@@ -7,7 +7,6 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- ✅ Spring Boot 3.4.x (COMPATIBLE WITH SPRING CLOUD) -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -25,7 +24,6 @@
         <java.version>17</java.version>
     </properties>
 
-    <!-- ✅ Spring Cloud BOM (MANDATORY) -->
     <dependencyManagement>
         <dependencies>
             <dependency>
