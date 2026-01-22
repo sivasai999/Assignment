@@ -78,7 +78,6 @@ POST http://localhost:8080/auth/register
   "email": "siva@gmail.com",
   "password": "sivasai123"
 }
-```
 
 **Login:**
 POST http://localhost:8080/auth/login
@@ -89,11 +88,10 @@ POST http://localhost:8080/auth/login
 }
 
 # Returns: token
-```
 
 ### Orders (Requires JWT Token)
 
-```bash
+
 # Get all orders
 GET http://localhost:8080/order/api/v1/orders
 Authorization: token
